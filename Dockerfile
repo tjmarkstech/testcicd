@@ -8,3 +8,4 @@ CMD ["/bin/bash"]
 CMD ["/bin/sh" "-c" "apachectl
 /bin/sh -c apachectl -D FOREGROUND
 /bin/sh -c apachectl -D FOREGROUND
+ADD . /var/www/html
