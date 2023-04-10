@@ -1,3 +1,3 @@
 FROM httpd:2.4
 WORKDIR /usr/local/apache2/htdocs/
-ADD . /var/www/html/
+COPY index.html ./htdocs/
